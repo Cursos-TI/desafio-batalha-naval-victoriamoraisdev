@@ -18,7 +18,6 @@ void cone(int tab[10][10])
        tab[2][8] = 1;
     }
   }
-  
 }
 
 //Criação da área afeta em cruz
@@ -40,7 +39,6 @@ void cruz(int tab[10][10])
       tab[9][2] = 1;
     }
   }
-  
 }
 
 //Criação da área afeta em octaedro
@@ -113,5 +111,6 @@ int main() {
    printf("\n- (0) Água 💧\n");
    printf("- (7) Navios 🚢\n");
    printf("- (1) Área afetada 💢\n");
+   
    return 0;
 }
